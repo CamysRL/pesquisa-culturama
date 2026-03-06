@@ -49,4 +49,41 @@ legend {
     padding: 0 8px;
 }
 
+input[type="text"],
+input[type="email"], input[type="number"], input[type="tel"], input[type="date"], input[type="file"], select, textarea  {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: auto;
+}
+
+input[type="color"] {
+    width: 80px;
+    padding: 0 2px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
 
