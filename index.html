@@ -38,8 +38,6 @@
 
                     <label for="image">Upload de Foto:</label>
                     <input type="file" accept="image/*" id="image" name="userImage">
-                    <br>
-
                 </fieldset> 
 
                 <fieldset>
@@ -99,7 +97,6 @@
                     
                     <label for="city">Cidade:</label>
                     <input type="text" id="city" name="userCity">
-                    <br>
                 </fieldset>
 
                 <fieldset>
@@ -148,9 +145,26 @@
 
                     <label for="favoriteColor">Cor Favorita:</label>
                     <input type="color" id="favoriteColor" name="userFavoriteColor">
+                </fieldset>
 
-                    
+                <fieldset>
+                    <legend>Opinião</legend>
 
+                    <p>Satisfação:</p>
+                    <input type="radio" id="satisfactionOtima" name="userSatisfaction" value="otima" required>
+                    <label for="satisfactionOtima">Ótimo</label>
+                    <input type="radio" id="satisfactionBoa" name="userSatisfaction" value="boa" required>
+                    <label for="satisfactionBoa">Boa</label>
+                    <input type="radio" id="satisfactionRegular" name="userSatisfaction" value="regular" required>
+                    <label for="satisfactionRegular">Regular</label>
+                    <input type="radio" id="satisfactionRuim" name="userSatisfaction" value="ruim" required>
+                    <label for="satisfactionRuim">Ruim</label>
+                    <br>
+
+                    <label for="comment">Deixe seu comentário:</label>
+                    <br>
+                    <textarea id="comment" name="userComment" rows="4" cols="50" placeholder="Escreva aqui..."></textarea>
+                    <br>
                 </fieldset>
 
 
