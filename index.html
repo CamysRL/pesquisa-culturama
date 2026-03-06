@@ -18,11 +18,11 @@
                 <fieldset>  
                     <legend>Dados Pessoais</legend> 
 
-                    <label for="name">Nome Completo:</label>
+                    <label for="name">*Nome Completo:</label>
                     <input type="text" id="name" name="userName" required>
                     <br>
 
-                    <label for="age">Idade:</label>
+                    <label for="age">*Idade:</label>
                     <input type="number" id="age" name="userAge" min="12" max="100" required>
                     <br>    
 
@@ -30,7 +30,7 @@
                     <input type="date" id="birthDate" name="userBirthDate">
                     <br> 
 
-                    <label for="email">Email:</label>
+                    <label for="email">*Email:</label>
                     <input type="email" id="email" name="userEmail" required>
                     <br>
 
@@ -45,7 +45,7 @@
                 <fieldset>
                      <legend>Perfil</legend>
 
-                    <p>Gênero:</p>
+                    <p>*Gênero:</p>
                     <input type="radio" id="genderMasculine" name="userGender" value="masculino" required>
                     <label for="genderMasculine">Masculino</label>
                     <input type="radio" id="genderFeminine" name="userGender" value="feminino" required>
@@ -54,7 +54,7 @@
                     <label for="genderOther">Outro</label>
                     <br>
 
-                    <label for="MaritalStatus">Estado Civil:</label>
+                    <label for="MaritalStatus">*Estado Civil:</label>
                     <select name="userMaritalStatus" id="MaritalStatus" required>
                         <option value="notInformed">Selecione</option>
                         <option value="solteiro">Solteiro(a)</option>
@@ -65,7 +65,7 @@
                     </select>
                     <br>
 
-                    <label for="state">Estado:</label>
+                    <label for="state">*Estado:</label>
                     <select name="userState" id="state" required>
                         <option value="acre">Acre</option>
                         <option value="alagoas">Alagoas</option>
@@ -173,7 +173,7 @@
                     <legend>Confirmações</legend>
                     <p>Confirmação de dados:</p>
                     <input type="checkbox" id="lgpd" name="userLGPD" value="confirmed" required>
-                    <label for="lgpd">Eu aceito participar da pesquisa e concordo com a coleta e tratamento de meus dados pessoais de acordo com a Lei Geral de Proteção de Dados (LGPD)</label>
+                    <label for="lgpd">Eu aceito participar da pesquisa</label>
                     <br>
                     <input type="checkbox" id="getResult" name="userGetResult" value="accepted">
                     <label for="getResult">Desejo receber o resultado por email</label>
