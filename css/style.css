@@ -65,7 +65,8 @@ textarea  {
     border-radius: 4px;
 }
 
-input[type="tel"] {
+input[type="tel"],
+input[type="file"] {
     margin-bottom: 0;
 }
 
