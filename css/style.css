@@ -7,9 +7,141 @@
 }
 
 body {
-    font-family: 'Work Sans', sans-serif;;
+    background-color: #f9f9f9;
+    font-family: 'Work Sans', sans-serif;
+}
+
+main {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 100px;
 }
 
 h1 {
     font-family: 'Fjalla One', sans-serif;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+fieldset {
+    padding: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0 8px;
+}
+
+input[type="text"],
+input[type="email"], 
+input[type="number"], 
+input[type="tel"], 
+input[type="date"], 
+input[type="file"], 
+select, 
+textarea  {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+input[type="radio"], 
+input[type="checkbox"] {
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: auto;
+    accent-color: #e96fe3;
+}
+
+input[type="color"] {
+    width: 80px;
+    padding: 0 2px;
+}
+
+input[type="text"]:required:invalid,
+input[type="email"]:required:invalid,
+input[type="number"]:required:invalid {
+    border-color: red;
+}
+
+input[type="text"]:required:valid,
+input[type="email"]:required:valid, 
+input[type="number"]:required:valid {
+    border-color: green;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+input[type="file"]::-webkit-file-upload-button:hover {
+    background-color: #e96fe3;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+button {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+button[type="reset"] {
+    background-color: #e96fe3;
+}
+
+button[type="reset"]:hover {
+    background-color: #d14db8;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
 }
