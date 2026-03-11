@@ -97,7 +97,7 @@ input[type="number"]:required:valid {
 
 input[type="file"]::-webkit-file-upload-button {
     background-color: #4CAF50;
-    color: white;
+    color: #000000;
     border: none;
     padding: 8px 12px;
     border-radius: 4px;
@@ -125,6 +125,7 @@ button {
 
 button[type="submit"] {
     background-color: #4CAF50;
+    color: #000000;
 }
 
 button[type="submit"]:hover {
@@ -133,6 +134,7 @@ button[type="submit"]:hover {
 
 button[type="reset"] {
     background-color: #e96fe3;
+    color: #000000;
 }
 
 button[type="reset"]:hover {
